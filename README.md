@@ -6,7 +6,10 @@ A quick tool by alex
 ### Install
 
 ```
-pip install -r requirements.html
+$ git clone https://github.com/alxgmpr/proxy-tester.git
+$ cd proxy-tester
+$ pip install -r requirements.html
+$ python main.py
 ```
 
 
@@ -22,11 +25,4 @@ Format ```USER:PASS:IP:PORT```
 Tester pings kith by default. You can change the constant in worker.py
 
 
-### Run
-
-```
-$ git clone https://github.com/alxgmpr/proxy-tester.git
-$ cd proxy-tester
-$ python main.py
-```
 
